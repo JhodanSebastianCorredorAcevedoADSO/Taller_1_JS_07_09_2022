@@ -1,15 +1,26 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular la velocida de un proyectil ///
+/// calcular el volumen de una esfera ///
 
-let kim = 2
+let radio1 = 3
 
-let min = 5
+let volumen = (4/2)
 
-let division = ( kim / min )
+let pi = 3.14
 
-console.log( `La formula es:  ${ division } = ${ kim } / ${ min }`)
+let radio2 = 23
 
-console.log( `La velocidad del proyectil es: " ${division }"`)
+let esfera1 = radio1 * volumen
+
+let esfera2 = volumen * pi * radio2
+
+console.log(` La primera formula es: ${ radio1 } * ${ volumen }` )
+
+console.log(` La segunda formula es: "${ volumen } * ${ pi } * ${ radio2}" ` )
+
+console.log(` el volumen de la esfera es: " ${ esfera1 } " `)
+
+console.log(` el volumen de la esfera es: " ${ esfera2 } " `)
+
 
 })
