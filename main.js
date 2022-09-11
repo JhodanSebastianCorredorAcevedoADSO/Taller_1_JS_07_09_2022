@@ -1,22 +1,24 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// algoritmo que permita obtener las raices reales 
-/// operacion basica *,+
+/// calcular el valor de una llamada telefonica
+/// operacion basica /
+let min1=355
     
-let a=2
+let pre= "digite cuantos numeros duro la llamada: " 
+
+/// multiplicar los datos integrados
     
-let z=4
+console.log( `%cFormulaes =  ${mult} = ${pre*min1} `) 
+
     
-let b=5
+console.log(`%formula es : ${iva2} = ${mult*0.20} `)
     
-let x=8
+/// sumar los datos integrados
     
-let c=1
-    
-console.log( `%cFormula es:  ${r1} = ${a*z+b*x+c} `)
+console.log(`%formula : ${sum} = ${iva2+mult} `) 
     
 /// resultado y operacion
-
-console.log(`"resultado", ${r1}`)
+    
+console.log(`resultado: "${sum}" `) 
 
 })
