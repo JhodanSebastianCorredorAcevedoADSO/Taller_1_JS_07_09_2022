@@ -8,7 +8,7 @@ let b=3
 
 let c=3
 
-console.log( `la formiula es: ${(a+7*c)} / ${(b+2-a)} + ${2} * ${b}  `)
+console.log( `la formiula es: ${R} = ${(a+7*c)} / ${(b+2-a)} + ${2} * ${b}  `)
 
 /// resultado u operacion
 
