@@ -1,22 +1,22 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// realizar un algoritmo
-/// operacio basica / 
-    
-let vel=180
-    
-let h=2
-    
-/// dividir los datos integrados
-    
-console.log(` ${div} = ${vel/h} `) 
-    
-console.log(` ${d} = ${vel*1000} / ${h*3600} `)
-    
-/// resultado y operacion
-    
-console.log(` resultado, ${div}`)
+/// calcular el costo y descuento de los medicamentos 
 
-console.log(` resultado en m/s: ${d} `)
+///operacion basica *
+    
+let costoMed = Number(prompt(` Ingrese el costo del medicamento: `))
+    
+let des=0.10
+    
+    
+/// multiplicar los datos integrados
+    
+let DescTotal = (des*costoMed) 
+    
+let costoTotal = (costoMed - DescTotal)
+    
+/// resultado y operacion 
+    
+console.log(`resultado:  ${costoTotal}s`)
 
 })
