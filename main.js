@@ -1,17 +1,26 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcule la siguiente expresion 
-/// operacion basica +,-,*,/
-let a=3
+/// calcular el area y volumen de un cilindro
+/// operacion basica *,+
+    
+/// import math
+    
+let pi=3.14
+    
+let ra=2
+    
+let h=3
+    
+let l=2
 
-let b=3
+/// resultado y operacion
+    
+console.log( `%cFormula es: ${R1} = ${ l } * ${pi*ra*ra}) + ${l*pi+ra} * ${h}`)
+console.log( `%cFormula es: ${R2} = ${pi*ra*ra} * ${h}`)
+    
+/// resultado y operacion
 
-let c=3
-
-console.log( `la formiula es: ${R} = ${(a+7*c)} / ${(b+2-a)} + ${2} * ${b}  `)
-
-/// resultado u operacion
-
-console.log("resultdo", R)
+console.log("resultado ", ${R1})
+console.log("resultado ", ${R2})
 
 })
