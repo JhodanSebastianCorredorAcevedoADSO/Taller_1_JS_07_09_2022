@@ -1,25 +1,22 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular en volumen de un elipsoide
-/// operacion basica +,/
+/// algoritmo que permita obtener las raices reales 
+/// operacion basica *,+
     
-/// import math
+let a=2
     
-let v=4/3
+let z=4
     
-let pi=3.14
+let b=5
     
-let a=11
+let x=8
     
-let b=12
+let c=1
     
-let c=13
+console.log( `%cFormula es:  ${r1} = ${a*z+b*x+c} `)
+    
+/// resultado y operacion
 
-/// mltiplicar los datos integrados
-
-console.log(`%cFormula es: ${mul} = ${v*pi*a*b*c}`)
-    
-/// resulatdo y operacion
-console.log("resultado", ${mult})
+console.log(`"resultado", ${r1}`)
 
 })
