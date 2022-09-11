@@ -1,24 +1,22 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el valor de una llamada telefonica
-/// operacion basica /
-let min1=355
+/// realizar un algoritmo
+/// operacio basica / 
     
-let pre= "digite cuantos numeros duro la llamada: " 
-
-/// multiplicar los datos integrados
+let vel=180
     
-console.log( `%cFormulaes =  ${mult} = ${pre*min1} `) 
-
+let h=2
     
-console.log(`%formula es : ${iva2} = ${mult*0.20} `)
+/// dividir los datos integrados
     
-/// sumar los datos integrados
+console.log(` ${div} = ${vel/h} `) 
     
-console.log(`%formula : ${sum} = ${iva2+mult} `) 
+console.log(` ${d} = ${vel*1000} / ${h*3600} `)
     
 /// resultado y operacion
     
-console.log(`resultado: "${sum}" `) 
+console.log(` resultado, ${div}`)
+
+console.log(` resultado en m/s: ${d} `)
 
 })
