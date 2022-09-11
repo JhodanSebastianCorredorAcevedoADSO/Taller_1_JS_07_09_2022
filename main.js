@@ -1,22 +1,15 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el costo y descuento de los medicamentos 
+/// calcular  grados centígrados a grados Fahrenheit
 
-///operacion basica *
+/// operacion basica +,*,/
     
-let costoMed = Number(prompt(` Ingrese el costo del medicamento: `))
+let cel=37
     
-let des=0.10
+let R = ((cel * (1.8))+ 32)
     
+/// resultado y operacion
     
-/// multiplicar los datos integrados
-    
-let DescTotal = (des*costoMed) 
-    
-let costoTotal = (costoMed - DescTotal)
-    
-/// resultado y operacion 
-    
-console.log(`resultado:  ${costoTotal}s`)
+console.log(`resultado: ${ R }`)
 
 })
