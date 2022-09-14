@@ -1,15 +1,33 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular  grados centígrados a grados Fahrenheit
+/// calcular el promedio final de la materia de algoritmos}
+/// operacion basica /,+
+    
+let nota1=70
+    
+let nota2=60
+    
+let nota3=55
+    
+let fin=85
+    
+let tra=89
 
-/// operacion basica +,*,/
+/// dividir los datos ingrsados
+
+let div=(nota1+nota2+nota3)/3 
     
-let cel=37
+let prom_final=(div*0.55)
     
-let R = ((cel * (1.8))+ 32)
+let cali_final=(fin*0.30)
     
-/// resultado y operacion
+let cali_tra=(tra*0.15)
     
-console.log(`resultado: ${ R }`)
+let prom_final1 = (cali_final+cali_tra+prom_final)
+    
+///resultado y operacion
+    
+console.log(`promedio final:, ${prom_final1}`)
+
 
 })
