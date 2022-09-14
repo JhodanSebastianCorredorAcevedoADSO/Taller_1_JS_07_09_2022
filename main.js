@@ -1,33 +1,19 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el promedio final de la materia de algoritmos}
-/// operacion basica /,+
-    
-let nota1=70
-    
-let nota2=60
-    
-let nota3=55
-    
-let fin=85
-    
-let tra=89
+/// calcular el costo total y el valor del iva 
 
-/// dividir los datos ingrsados
-
-let div=(nota1+nota2+nota3)/3 
+/// operacion basica *,/
     
-let prom_final=(div*0.55)
+let precio=Number(prompt("costo total del producto: "))
     
-let cali_final=(fin*0.30)
+let iva = Number(prompt("Ingrese el porcentaje de IVA: "))
     
-let cali_tra=(tra*0.15)
+let precioIVA= precio * (iva/100)
     
-let prom_final1 = (cali_final+cali_tra+prom_final)
+let total = precio + precioIVA
     
-///resultado y operacion
+/// resultado y operacion
     
-console.log(`promedio final:, ${prom_final1}`)
-
+console.log(`Precio con IVA:, ${total}`)
 
 })
