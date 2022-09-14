@@ -1,19 +1,11 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular la edad de las personas que solicitan trabajo
 
-let nombre=prompt("aqui su nombre")
+let texto, revertida
 
-let nacimi=Number(prompt("su año de nacimiento"))
+texto = "los programadores son los encargados de crear lo que las personas sueñan"
 
-let actual=2022
+revertida = texto.split("").reverse().join("");
 
-let edad = actual-nacimi
-
-/// resultdo y operacion
-
-console.log(`persona entrevistada:  ${nombre}`); 
-
-console.log(`edad de la persona: ${edad}`);
-
+console.log(revertida)
 })
