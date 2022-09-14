@@ -1,33 +1,19 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// cuanto reciber de comicion cuanto es el sueldo mensual
+/// calcular la distancia entre dos puntos 
 
-/// operacion basica +,*
+//// operacion basica **,-,+
     
-let v1=60000
+let rc=30
     
-let v2=33500
+let x=4
     
-let v3=162000
+let y=18
     
-let su=1000000
+let d=rc*(((x*2)-(x*1))**2+((y*2)-(y*1))**2)
     
-/// sumar los datos ingresados
+/// resultado y operacion
 
-let valo=(v1+v2+v3+su) 
-    
-/// multiplicar los datos ingresados
-
-let comi=(valo*0.10) 
-    
-let res=(valo+comi)
-    
-/// resultado y promedio
-    
-console.log(`sueldo del vendedor:, ${valo}`) ;
-
-console.log(`comision:, ${comi}`);
-
-console.log(`resultado:, ${res}`); 
+console.log(`resultado:, ${d}` )
 
 })
