@@ -1,22 +1,33 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// realizar el pseucodigo para obtener el promedio de calificaciones
-/// operacion basica +,/
+/// cuanto reciber de comicion cuanto es el sueldo mensual
 
-let re1=3
-
-let re2=3
-
-let re3=4
-
-let re4=1
-
-/// dividir los datos ingresados
+/// operacion basica +,*
     
-let sum=(re1+re2+re3+re4)/4 ;
-
-/// resultado y operacion
+let v1=60000
     
-console.log(`calificacion promedio:, ${sum}`);
+let v2=33500
+    
+let v3=162000
+    
+let su=1000000
+    
+/// sumar los datos ingresados
+
+let valo=(v1+v2+v3+su) 
+    
+/// multiplicar los datos ingresados
+
+let comi=(valo*0.10) 
+    
+let res=(valo+comi)
+    
+/// resultado y promedio
+    
+console.log(`sueldo del vendedor:, ${valo}`) ;
+
+console.log(`comision:, ${comi}`);
+
+console.log(`resultado:, ${res}`); 
 
 })
