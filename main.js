@@ -1,20 +1,15 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular qué parte le corresponde Lorena
-/// operacion basica
+/// calcular 
+
+let n2=2500
     
-let tapas=1000
+let tm=5
     
-let mart=(2/3)*tapas
-    
-let jari=(tapas/4)
-    
-let tota=(mart+jari)
-    
-let lorena=tapas
-    
+let total= n2*tm
+
 /// resultado y operacion
     
-console.log(`la parte que le corresponde a lorena es: ${jari}`);
+console.log(`el trabajo para la pintura es:  ${total}`);
 
 })
