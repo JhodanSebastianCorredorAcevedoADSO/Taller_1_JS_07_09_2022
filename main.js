@@ -1,29 +1,32 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el tiempo estimado para el llenado de un deposito
+/// calcular cuanto dinero tenia el jefe de obra 
+/// operacion basica +,*
+    
+let llav=11500
+    
+let bomb=1168000
+    
+let per=87000
+    
+let sobr=91000
+    
+let mul1=(llav*5)
+    
+let mul2=(per*3)
+    
+let sum=(mul1+mul2+bomb)
+    
+let sum2=(sobr+sum)
+    
+/// resultado y proceso
+    
+console.log(`valor de las llaves:", ${mul1}`)
 
-/// operacon basica +
-    
-let pi=3.1416
-    
-let rad=18
-    
-let h=20
-    
-let t=10
-    
-let mul=(pi*(rad**2)*h)
-    
-let ti=(t*60)
-    
-let q=(mul/ti)
-    
-/// resultado y operacion
-    
-console.log(`volumen:, ${mul}`)
-
-console.log(`tiempo en segundos:, ${ti}`)
+console.log(`valor de los pernos:, ${mul2}`)
  
-console.log(`el caudal es:, ${q}`)
+console.log(`suma de los productos:, ${sum}`)
+
+console.log(`cuanto dinero tenia:, ${sum2}`)
 
 })
