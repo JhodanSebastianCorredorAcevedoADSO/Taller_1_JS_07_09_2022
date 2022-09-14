@@ -1,19 +1,27 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el costo total y el valor del iva 
+/// calcular el sueldo de un empleado 
 
-/// operacion basica *,/
+/// operacion bvasica +,*
     
-let precio=Number(prompt("costo total del producto: "))
+let dias_trabajo=Number(prompt("dias tranajados al mes: "))
     
-let iva = Number(prompt("Ingrese el porcentaje de IVA: "))
+let nombr=prompt("nombre del empleado: ")
     
-let precioIVA= precio * (iva/100)
+let hrs=8
     
-let total = precio + precioIVA
+let pago_horas=15300
+    
+/// multiplicar los datos ingresados
+
+let dia=(pago_horas*hrs) 
+    
+/// multiplicar los datos ingresados
+
+let mult=(dia*dias_trabajo) 
     
 /// resultado y operacion
     
-console.log(`Precio con IVA:, ${total}`)
+console.log(`pago del mes:, ${mult}`)
 
 })
