@@ -1,27 +1,22 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular el sueldo de un empleado 
+/// realizar el pseucodigo para obtener el promedio de calificaciones
+/// operacion basica +,/
 
-/// operacion bvasica +,*
-    
-let dias_trabajo=Number(prompt("dias tranajados al mes: "))
-    
-let nombr=prompt("nombre del empleado: ")
-    
-let hrs=8
-    
-let pago_horas=15300
-    
-/// multiplicar los datos ingresados
+let re1=3
 
-let dia=(pago_horas*hrs) 
-    
-/// multiplicar los datos ingresados
+let re2=3
 
-let mult=(dia*dias_trabajo) 
+let re3=4
+
+let re4=1
+
+/// dividir los datos ingresados
     
+let sum=(re1+re2+re3+re4)/4 ;
+
 /// resultado y operacion
     
-console.log(`pago del mes:, ${mult}`)
+console.log(`calificacion promedio:, ${sum}`);
 
 })
