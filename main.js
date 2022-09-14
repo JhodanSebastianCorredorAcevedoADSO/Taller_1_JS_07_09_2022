@@ -1,14 +1,20 @@
 addEventListener("DOMContentLoaded", ()=>{
 
-/// calcular cuantos kilogramos se trnsportan
-/// operacion basica 
+/// calcular qué parte le corresponde Lorena
+/// operacion basica
     
-let caja=748
+let tapas=1000
     
-let div=(caja*25)
+let mart=(2/3)*tapas
+    
+let jari=(tapas/4)
+    
+let tota=(mart+jari)
+    
+let lorena=tapas
     
 /// resultado y operacion
     
-console.log(`total de carga: ${div}`); 
+console.log(`la parte que le corresponde a lorena es: ${jari}`);
 
 })
